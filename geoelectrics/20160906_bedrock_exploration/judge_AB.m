@@ -3,7 +3,7 @@ function rho_s=judge_AB(AB, I)
 % U为预设值，视情况更改
 
 
-U=36.0; % 视情况更改
+U=11.0; % 视情况更改
 
 L=AB/2;
 
