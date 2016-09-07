@@ -7,3 +7,5 @@ Three passions, simple but overwhelmingly strong, have let me try GitHub : the l
 ## geoelectrics
 
 ### 20160906_bedrock_exploration
+![bedrock_exploration_line](https://github.com/SEER2/geophysics_fieldwork/tree/master/images/bedrock_exploration_line.jpg)
+![bedrock_exploration_point.jpg](https://github.com/SEER2/geophysics_fieldwork/tree/master/images/bedrock_exploration_point.jpg)
