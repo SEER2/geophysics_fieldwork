@@ -29,7 +29,9 @@ program main
     filename = "b_m_1_"//cache//".txt"
   21 open(20,file = filename)
     do j = 1, 20
-      write(20,*) x(j),y(j),rho_s(j,i)
+      if ( (rho_s(j,i)-0.0)>1e-5 ) then
+        write(20,*) x(j),y(j),rho_s(j,i)
+      endif
     end do
     close(21)
   end do
