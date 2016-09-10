@@ -31,10 +31,8 @@ program main
     do j = 1, 20
       if ( (rho_s(j,i)-0.0)>1e-5 ) then
         write(20,*) x(j),y(j),rho_s(j,i)
-      endif
+      end if
     end do
     close(21)
   end do
 
-  stop
-end
