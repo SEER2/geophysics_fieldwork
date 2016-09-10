@@ -1,11 +1,11 @@
 %!PS-Adobe-3.0
 %%BoundingBox: 0 0 595 842
 %%HiResBoundingBox: 0 0 595 842
-%%Title: GMT v5.2.1 (r15220) [64-bit] Document from psbasemap
+%%Title: GMT v5.2.1 (r15220) [64-bit] Document from grdimage
 %%Creator: GMT5
 %%For: seer
 %%DocumentNeededResources: font Helvetica
-%%CreationDate: Sat Sep 10 10:17:43 2016
+%%CreationDate: Sat Sep 10 14:52:04 2016
 %%LanguageLevel: 2
 %%DocumentData: Clean7Bit
 %%Orientation: Landscape
@@ -666,12 +666,33 @@ O0
 1200 1200 TM
 
 % PostScript produced by:
-%%GMT: psbasemap -R-16/19/-52/38 -JX3i/5i '-Ba10f1/a10f1:.Bedrock Bisect:WSnE' -K
+%%GMT: grdimage d.grd -JX3i/5i '-Ba10f1/a10f1:.Bedrock Bisect:WSnE' -Cd.cpt -K
 %%PROJ: xy -16.00000000 19.00000000 -52.00000000 38.00000000 -16.000 19.000 -52.000 38.000 +xy +a=6378137.000 +b=6356752.314245 +ellps=WGS84 +datum=WGS84 +units=m +no_defs
 %%BeginObject PSL_Layer_1
 0 setlinecap
 0 setlinejoin
 3.32551 setmiterlimit
+clipsave
+0 0 M
+3600 0 D
+0 6000 D
+-3600 0 D
+PSL_clip N
+V N -51 -33 T 3703 6067 scale [/Indexed /DeviceRGB 10 <
+4000FF0040FF00BFFF00FFBF00FF4040FF00BFFF00BF00FFFFBF00FF4000000000>] setcolorspace
+<< /ImageType 1 /Decode [0 15] /Width 36 /Height 91 /BitsPerComponent 4
+   /ImageMatrix [36 0 0 -91 0 91] /DataSource currentfile /ASCII85Decode filter /FlateDecode filter
+>> image
+G[>7:c&nbT&-ZH]iekAT$mL9l6nlUm(l5u;I.WDu]aofQJ8Ftn-h1]ukf-][qJ.tNj=fp!Idc%R>WQZEOAIu0m@DKq\k?9)
+1.MnODOC];=r([B6P/@rTRI>B:.=gfA=]n\[q5]0"B8#.<4]!4aHOQ8!T^8=KL'68$s5,Sa;Y\DD0P`p'_;M38Z#)/e56c$
+6CsufK8e#YAXW\nPiPWj76r!UR1ttt8Zt,WmBS;7.^m^`bH`Nj;Rc+X'G])W_X"^-0?P-mUnH>FXbH'heiecdn/B1Kigud^
+=C.G6.%Ufh[*01?6"1ul_Ykn(Z#"7tmSLbm@drNTTPP\,^=6<hm(d*j-QuS.7a@f?qfL+eapttiRC7K`S02H^B&^).?f=?P
+Al)CAB,VqL_ZRgg6s4TZhh2ZH@[3acf'OMH7s#!`WR3_pp_gNXb:<+"'47FlRe'D//1kDg@%eA%G<q5A.S!n[MY@QOf`UL[
+]]>pu>?$1,(.dFF;YE[13Q8N[#a-6=J'EnokD&!hG/h81gm^&,ZG-*J]]Q3i:!\u4^/8.clKN'UIjKK?EW#_e7Fc6H&pol=
+p,,,#K3Y_n)8AChgPHQpqEYB*)%p#C)B<iiG*t'X3rFn+=%H](4Liigo5onb-=oi1\7s/#3YIuG;t=`@G%>[V4f^DX_KrB5
+8l3iO(G8bY?RQd<B$cT_g'#S4*_/e)i(tr:%R*"]JV:3_VJME.drZ<'ZJVJ:s*9&,rh"=YKJEIub@RLmT`7onj`C~>
+U
+PSL_cliprestore
 25 W
 2 setlinecap
 N 0 6000 M 0 -6000 D S
@@ -1045,7 +1066,7 @@ O0
 0 0 TM
 
 % PostScript produced by:
-%%GMT: grdcontour d.grd -JX3i/5i '-Ba10f1/a10f1:.Bedrock Bisect:WSnE' -C5 -A10 -O
+%%GMT: grdcontour d.grd -JX3i/5i '-Ba10f1/a10f1:.Bedrock Bisect:WSnE' -C5 -A10 -T0.5i/0.5i:-+ -K -O
 %%PROJ: xy -16.00000000 19.00000000 -52.00000000 38.00000000 -16.000 19.000 -52.000 38.000 +xy +a=6378137.000 +b=6356752.314245 +ellps=WGS84 +datum=WGS84 +units=m +no_defs
 %%BeginObject PSL_Layer_2
 0 setlinecap
@@ -1057,7 +1078,15 @@ clipsave
 0 6000 D
 -3600 0 D
 PSL_clip N
-PSL_font_encode 0 get 0 eq {ISOLatin1+_Encoding /Helvetica /Helvetica PSL_reencode PSL_font_encode 0 1 put} if
+12 W
+N 2160 4815 M -5 600 D S
+N 2654 4533 M 487 -350 D S
+N 2140 4400 M -362 -478 D S
+N 2469 1873 M -91 593 D S
+2301 4596 M PSL_font_encode 0 get 0 eq {ISOLatin1+_Encoding /Helvetica /Helvetica PSL_reencode PSL_font_encode 0 1 put} if
+200 F0
+(+) mc Z
+2457 1758 M (+) mc Z
 /PSL_setboxpen {4 W 0 A [] 0 B} def
 /PSL_setboxrgb {1 A} def
 /PSL_path_pen [
@@ -2690,6 +2719,86 @@ N 3600 0 M 0 42 D S
 1800 6000 PSL_H_y add M
 400 F0
 (Bedrock Bisect) bc Z
+%%EndObject
+0 A
+FQ
+O0
+0 0 TM
+
+% PostScript produced by:
+%%GMT: psscale -D1.5i/-0.3i/3i/0.3ch -B10 -Cd.cpt -O
+%%PROJ: xy -1.89044344 62.28474808 0.00000000 0.11811024 -1.890 62.285 0.000 0.118 +xy +a=6378137.000 +b=6356752.314245 +ellps=WGS84 +datum=WGS84 +units=m +no_defs
+%%BeginObject PSL_Layer_3
+0 setlinecap
+0 setlinejoin
+3.32551 setmiterlimit
+0 -502 T
+25 W
+{0.75 0 1 C} FS
+142 714 0 0 Sb
+{0.25 0 1 C} FS
+142 282 714 0 Sb
+{0 0.25 1 C} FS
+142 204 996 0 Sb
+{0 0.75 1 C} FS
+142 174 1200 0 Sb
+{0 1 0.75 C} FS
+142 162 1374 0 Sb
+{0 1 0.25 C} FS
+142 163 1536 0 Sb
+{0.25 1 0 C} FS
+142 173 1699 0 Sb
+{0.75 1 0 C} FS
+142 204 1872 0 Sb
+{1 0.75 0 C} FS
+142 282 2076 0 Sb
+{1 0.25 0 C} FS
+142 1242 2358 0 Sb
+2 setlinecap
+N 0 142 M 3600 0 D S
+N 0 0 M 0 142 D S
+N 3600 0 M 0 142 D S
+N 0 0 M 3600 0 D S
+/PSL_A0_y 83 def
+/PSL_A1_y 0 def
+8 W
+N 106 0 M 0 -83 D S
+N 667 0 M 0 -83 D S
+N 1228 0 M 0 -83 D S
+N 1789 0 M 0 -83 D S
+N 2350 0 M 0 -83 D S
+N 2911 0 M 0 -83 D S
+N 3472 0 M 0 -83 D S
+/PSL_AH0 0
+/MM {neg M} def
+PSL_font_encode 0 get 0 eq {ISOLatin1+_Encoding /Helvetica /Helvetica PSL_reencode PSL_font_encode 0 1 put} if
+200 F0
+(0) sh mx
+(10) sh mx
+(20) sh mx
+(30) sh mx
+(40) sh mx
+(50) sh mx
+(60) sh mx
+def
+/PSL_A0_y PSL_A0_y 83 add PSL_AH0 add def
+106 PSL_A0_y MM
+(0) bc Z
+667 PSL_A0_y MM
+(10) bc Z
+1228 PSL_A0_y MM
+(20) bc Z
+1789 PSL_A0_y MM
+(30) bc Z
+2350 PSL_A0_y MM
+(40) bc Z
+2911 PSL_A0_y MM
+(50) bc Z
+3472 PSL_A0_y MM
+(60) bc Z
+/PSL_LH 0 def /PSL_L_y PSL_A0_y PSL_A1_y mx def
+0 setlinecap
+0 502 T
 %%EndObject
 %%PageTrailer
 U
