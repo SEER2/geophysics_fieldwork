@@ -1,11 +1,4 @@
 # geophysics_fieldwork
 20160905 created
 
-## Why am I using GitHub ?
-Three passions, simple but overwhelmingly strong, have let me try GitHub : the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind.
-
-## geoelectrics
-
-### 20160906_bedrock_exploration
-![bedrock_exploration_line](https://github.com/SEER2/geophysics_fieldwork/tree/master/images/bedrock_exploration_line.jpg)
-![bedrock_exploration_point.jpg](https://github.com/SEER2/geophysics_fieldwork/tree/master/images/bedrock_exploration_point.jpg)
+目前地电实习后续数据收集处理作业已基本完成。将于20160911进行整合Wiki工作，介绍各个文件的存储内容及用途，程序的调试运行方法，注意事项等。敬请期待！
