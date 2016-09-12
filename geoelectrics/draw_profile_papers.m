@@ -4,7 +4,7 @@ load;
 % ml表示测线数据，AB为测深AB间隔数据
 % 根据要计算的内容更换matlab.mat中的数据
 % % % % % % % % % % % % % % % % % % % % % % %
-ml=bombs_m_n;
+ml=bombs_m_s;
 AB=bombs_AB;
 % % % % % % % % % % % % % % % % % % % % % % %
 
@@ -59,7 +59,7 @@ end
 
 [x,y]=contour(d_c,AB,rho_s_s_c);
 clabel(x,y);
-title('等视电阻率断面图');
+% title('等视电阻率断面图');
 % 特定标题
 % title('ISIPG1测线等视电阻率断面图');
 % title('ISIPG2测线等视电阻率断面图');
